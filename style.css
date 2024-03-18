@@ -1,0 +1,410 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+    color: white;
+}
+body{
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+}
+.container{
+    margin: 12px;
+}
+.container h1{
+    /* padding-top: 10px; */
+    font-size: 50px;
+    text-transform: capitalize;
+    color: #000000f1;
+    padding-bottom: 90px;
+}
+ .banner{
+  display: flex;
+  gap: 5rem;
+}
+.banner-img img{
+  /* border: 2px solid #000; */
+  border-radius: 5px;
+}
+
+
+/* This is login form */
+.login{
+    width:30%;
+    /* height:20vh,auto; */
+    display: flex;
+    justify-content: center;
+     /* border:2px solid #000 ; */
+     border-radius: 5px;
+     background-color: #ffffff56;
+     box-shadow: 0 0 100px  #000;
+}
+.login h2{
+    padding-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+.login p{
+    padding-bottom: 30px;
+}
+.login label{
+    text-transform: capitalize;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.login input{
+    width: 100%;
+    height: 4vh;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 15px;
+    color: #000;
+    font-size: 20px;
+}
+.login button{
+    width: 100%;
+    height: 8vh;
+    border: none;
+    border-radius: 5px;
+    background: rgb(65, 65, 156);
+    font-weight: 600;
+    font-size: 30px;
+    color: #fff;
+}
+.login a{
+    color: rgb(87, 25, 36);
+}
+
+/* This is registration form */
+.register{
+    width:35%;
+    height:60vh,auto;
+    display: flex;
+    justify-content: center;
+     /* border:2px solid #000 ; */
+     border-radius: 5px;
+     background-color: #ffffff56;
+     box-shadow: 0 0 100px  #000;
+      padding:5px;
+}
+.register h2{
+    padding-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+.register p{
+    padding-bottom: 30px;
+}
+.register label{
+    text-transform: capitalize;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.register input{
+    width: 100%;
+    height: 4vh;
+    border-radius: 6px;
+    border: none;
+    padding: 15px;
+    color: #000;
+    font-size: 20px;
+}
+.register .button{
+    margin-bottom: 15px;
+}
+.register button{
+    width: 100%;
+    height: 4vh;
+    border: none;
+    border-radius: 5px;
+    background: rgb(142, 142, 155);
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+}
+.register a{
+    color: rgb(65, 65, 156);
+}
+
+/* THIS IS DASHBOARD PAGE */
+.dashboard{
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    
+}
+.dashboard .left-panel{
+    width: 20%;
+    height: 100vh,auto;
+    background: rgba(0, 0, 0, 0.575);
+        padding: 5px;
+    border-radius: 5px;
+}
+.left-panel .logo .log-text h3{
+    padding-top: 10px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: 30px;
+
+} 
+.left-panel .logo .log-pic{
+   margin-left: 20px;
+   padding-bottom: 5%;
+   display: flex;
+    align-items: center;
+}
+.left-panel .logo .log-pic img{
+    width: 30%;
+    height: 20%;
+    border-radius: 50px;
+}
+.left-panel .logo .log-pic input{
+    width: 60%;
+    height: 3%;
+    background: #ffffff5b;
+}
+.left-panel .menu{
+    width: 100%;
+  
+}
+.left-panel .menu ul{
+    list-style:none ;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.left-panel .menu ul li { 
+   text-decoration: none;
+   margin-bottom:15px;
+}
+.left-panel .menu ul li a{ 
+    text-decoration: none;
+}
+.left-panel .menu ul li:hover{
+    background: rgba(190, 9, 9, 0.575);
+   
+}
+.left-panel .menu ul li a i{
+    padding-right: 10px;
+}
+
+
+.dashboard .right-panel{
+    width: 100%;
+    height: 100vh,auto;
+   
+}
+.right-panel .right-header{
+    
+    width: 100%;
+    height: 6vh ;   
+    background: rgba(0, 0, 0, 0.575);
+}
+.right-panel .right-header .menu-icon{
+    padding: 10px ;
+    display: flex;
+    justify-content: space-between;
+}
+.right-panel .right-header .menu-icon a{
+    text-decoration: none;
+
+}
+.right-panel .right-header .menu-icon a i{
+    padding-right: 10px;
+}
+ .right-panel .content{
+    margin-top: 4% ;
+    margin-left: 30px;
+    /* margin-right: 50px; */
+    width: 95%;
+    height: 70vh;
+    background: rgba(0, 0, 0, 0.575);
+    border-radius: 10px;
+}
+
+
+
+
+.right-panel .right-header span i{
+    font-size: 25px;
+}
+/* THIS IS DASHBOARD-right-panel */
+.content .stock-available-container{
+    width: 60%,auto;
+    height: 50vh;
+    margin-top: 20px;
+    border: 1px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+ .stock-available-prod{
+    width: 20%;
+    height: 40vh;
+    border-radius: 10px;
+    align-items: center;
+    border:  1px solid rgb(49, 49, 105);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+} 
+.stock-available-prod:hover{
+  
+    cursor: pointer;
+    transform:translate(.5s);
+    box-shadow: 0 0 100px rgb(46, 46, 110);
+}
+.stock-available-container .stock-available-prod.img{
+    width: 60%;
+    height: 20vh;
+  
+   
+}
+.stock-available-prod .img a h4{
+    text-align: center;
+    margin-top: -40px;
+    padding-bottom: 30%;
+    font-size: 2rem;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.stock-available-prod .img a h4:hover{
+   font-size: 1.9rem;
+}
+.stock-available-prod .img i{
+    font-size: 6rem;
+    padding-bottom: 20px;
+}
+.stock-available-prod .img p{
+    font-size: 2rem;
+    text-transform: capitalize; 
+}
+/* THIS IS PRODUCT PAGE  */
+.right-content{
+    width: 100%;
+    height: 100vh,auto;
+    /* border:2px solid #000; */
+    
+}
+.right-content .content{
+    /* background: transparent; */
+}
+.content button{
+    height: 6vh;
+    float: right;
+    margin-bottom: 30px;
+}
+.content .product-info-table {
+    /* border: 2px solid rgb(252, 4, 4); */
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+}
+.content .product-info-table table{
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+.content .product-info-table th{
+    /* background: rgb(238, 238, 243); */
+    font-size: 20px;
+}
+.content .product-info-table td{
+    padding-left: 20px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.content .product-info-table .img{
+
+    color:green;
+}
+
+.right-content .product-details-banner{
+    width: 95%;
+    height: 5vh;
+    margin: 15px;
+    background: rgba(0, 0, 0, 0.575);;
+    text-align: center;
+}
+/* THIS ADD-PRODUCT  */
+.right-content{
+    width: 100%;
+    height: 100vh,auto;
+    /* border:2px solid #000; */
+   
+}
+.right-content .content{
+    /* background: transparent; */
+}
+.content button{
+    float: left;
+    
+}
+.add-prod-center{
+    width: 100%;
+    height: 60vh,auto;
+    display: flex;
+    justify-content: center;
+    
+    /* border: 1px solid yellow; */
+    text-align: center;
+}    
+.add-product{
+    width: 50%;
+    height: 50vh,auto;
+    padding: 30px;
+    /* border: 1px solid black; */
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0  0 50px rgb(65, 65, 156);
+}
+.add-product h3{
+    margin-top: -5px;
+    font-size: 20px;
+}
+.add-product label{
+    float: left;
+    text-transform: capitalize;
+}
+.add-product input{
+    width: 100%;
+    height: 5vh;
+    border-radius: 10px;
+    border: none;
+    background: rgb(105, 105, 224);
+    color: black;
+    font-size: 20px;  
+    padding: 20px; 
+    margin-bottom: 10px; 
+}
+.button {
+    width: 100%;
+    height: 5vh;
+    margin-top: 15px;
+    font-size: 25px;
+    /* background: rgb(2, 2, 247); */
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+}
+.button .back-button,  button{
+    width: 30%;
+    height: 5vh;
+    /* padding-top: 15px; */
+    font-size: 25px;
+    background: rgb(65, 65, 156);;
+    border-radius: 10px;
+    border: none;
+}
+/* THIS SUPPLIERS */
+/* THIS ADD-SUPPLIERS */
